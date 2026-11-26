@@ -28,6 +28,9 @@ header{
     font-size: 16px;
     font-weight: 400;
 }
+.gra{
+    color: #767676;
+}
 .menu{
     display: none;
 }
@@ -61,6 +64,9 @@ header{
     font-family: "Poppins", sans-serif;
 
 }
+.right{
+    width: 520px;
+}
 
 @media(max-width: 500px){
     .main{
@@ -80,5 +86,13 @@ header{
     }
     .left{
         margin-top: 20px;
+    }
+    .main2{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .right{
+        padding: 20px ;
+        width: 440px;
     }
 }
