@@ -96,6 +96,23 @@ header{
 .back{
     background-color: #F9F9F9;
 }
+.bx1{
+    width: 480px;
+    box-shadow: 1px 1px 3px lightgray;
+    border-radius: 4px;
+    padding: 30px 50px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.main3{
+    display: flex;
+    justify-content: center;
+}
+.gp{
+    gap: 15px;
+}
+
 
 @media(max-width: 500px){
     .main{
@@ -137,5 +154,26 @@ header{
     }
     .back{
         padding: 50px 0px;
+    }
+    .boxs2{
+        /* width: 130px; */
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bx1{
+        width: 330px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .xb{
+        display: none;
+    }
+    .main3{
+        text-align: left;
+        font-size: 30px;
+        /* width: 300px; */
     }
 }
