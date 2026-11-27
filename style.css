@@ -112,6 +112,20 @@ header{
 .gp{
     gap: 15px;
 }
+.bx2{
+    width: 370px;
+}
+.pr3{
+    width: 480px;
+}
+.bt1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.left1{
+    margin-right: 200px;
+}
 
 
 @media(max-width: 500px){
@@ -175,5 +189,20 @@ header{
         text-align: left;
         font-size: 30px;
         /* width: 300px; */
+    }
+    .boxs3{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .left1{
+        /* margin-right: 0px; */
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .pr3{
+        font-size: 16px;
+        font-weight: 400;
+        width: 327px;
     }
 }
