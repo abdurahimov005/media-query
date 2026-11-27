@@ -148,6 +148,12 @@ header{
         text-align: center;
         /* margin-top: 30px; */
     }
+    .clsa{
+        padding: 20px 20px;
+    }
+    .gal1{
+        width: 480px;
+    }
     .gal{
         width: 450px;
     }
@@ -156,7 +162,7 @@ header{
     }
     .main2{
         flex-direction: column;
-        padding: 20px 0px;
+        padding: 20px 10px;
     }
     .right{
         padding: 20px ;
@@ -174,7 +180,7 @@ header{
         font-weight: 400;
     }
     .back{
-        padding: 50px 0px;
+        padding: 50px 10px;
     }
     .boxs2{
         /* width: 130px; */
